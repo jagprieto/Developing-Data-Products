@@ -1,7 +1,6 @@
 library(shiny)
 library(ggplot2)
 library(maps)
-source('plotBars.R')
 
 ## Read USA states capitols latitude and longitude.
 states.relocations <- c('AK','HI','AS','PR','VI')
